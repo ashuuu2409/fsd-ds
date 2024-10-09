@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: aqua;
+    align-items: center;
+
+}
+img{
+    width: 60px;
+    height: 100px;
+
+}
+a{
+    background-color: violet;
+    font-size: 40px;
+    border: 5px red;
+    text-decoration: none;
+}
+a:hover{
+    background-color: chartreuse;
+    color: coral;
+
+}
+.maincontent{
+    display: flex;
+    border: 3px yellow;
+    justify-content: space-between;
+    margin: 20px;
+    height: 300px;
+    background-color: goldenrod;
+}
